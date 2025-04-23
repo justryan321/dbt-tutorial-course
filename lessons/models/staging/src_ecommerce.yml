@@ -1,0 +1,12 @@
+version: 2 #need this for every yaml file
+
+sources: #information of the data we are sourcing from for our staging tables. 
+  - name: thelook_ecommerce
+    database: bigquery-public-data
+    tables:
+      - name: orders
+      - name: inventory_items
+      - name: order_items
+      - name: products
+      - name: users
+      
